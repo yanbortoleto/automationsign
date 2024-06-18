@@ -51,7 +51,7 @@ class FileEventHandler(FileSystemEventHandler):
                 time.sleep(2)
 
                 # Digitar a senha na janela do SafeNet
-                windows = pyautogui.getWindowsWithTitle("Token Logon")
+                windows = pyautogui.getWindowsWithTitle("Token Logon") #Mudar caso necessário conforme no titulo da janela
                 if windows:
                     windows[0].activate()
                     pyautogui.typewrite(TOKEN_PASSWORD)
