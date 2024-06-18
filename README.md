@@ -11,3 +11,6 @@ Certifique-se de mudar o diretorio da pasta que deseja monitorar.
 
 Diretórios
 WATCH_DIRECTORY = r"C:\Caminho\Para\Sua\Pasta\Monitorada"
+
+Mudar caso necessário conforme no titulo da janela
+windows = pyautogui.getWindowsWithTitle("Token Logon") #
